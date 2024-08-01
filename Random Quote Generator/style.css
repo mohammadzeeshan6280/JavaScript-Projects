@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#quoteBox{
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #000;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+button{
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    background: crimson;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}

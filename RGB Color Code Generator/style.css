@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1{
+    text-align: center;
+    font-size: 2.1rem;
+    color: #fff;
+}
+#color{
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+
+}
+
+#rgb{
+    font-size: 1.1rem;
+    margin-top: 10px;
+    color: #fff;
+}
+
+button{
+    background: orangered;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    font-size: 1.1rem;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+   
+      
+}

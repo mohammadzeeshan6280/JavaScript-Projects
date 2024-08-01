@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Strength Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Password Strength Indicator</h2>
+        <form action="">
+            <div class="field">
+                <input onkeyup="trigger()" type="password" name="" id="" placeholder="Enter your Password">
+                <span class="showBtn">Show</span>
+            </div>
+
+            <div class="indicator">
+                <span class="weak"></span>
+                <span class="medium"></span>
+                <span class="strong"></span>
+            </div>
+            <div class="text"></div>
+        </form>
+    </div>
+
+    <script src="/jquery-3.7.1.min.js"></script>
+    <script src="/script.js"></script>
+
+</body>
+</html>
